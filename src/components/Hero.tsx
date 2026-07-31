@@ -2,6 +2,7 @@ import React from 'react';
 import { PERSONAL_INFO } from '../data';
 import { ArrowUpRight, Github, ShieldCheck } from 'lucide-react';
 
+
 export const Hero: React.FC = () => {
   return (
     <section id="about" className="pt-32 pb-20 px-6 max-w-6xl mx-auto scroll-mt-16">
