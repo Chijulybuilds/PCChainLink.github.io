@@ -90,6 +90,13 @@ export const PROJECTS: Project[] = [
     github: "https://github.com/Chijulybuilds/ERC721-CHIJULY",
     featured: false,
   },
+  {
+    title: "VeriBridge",
+    description: "An undergoing development full-stack project that uses Chainlink CCIP for ownership cross-chain and yield generation.",
+    tags: ["Solidity", "TypeScript", "Wagmi", "Ethers.js", "ERC20", "OpenZeppelin", "CCIP", "Testing"],
+    github: "https://github.com/Chijulybuilds/VeriBridge",
+    featured: false,
+  },
 ];
 
 export const SKILLS: SkillCategory[] = [
