@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
 
-/* This single import handles base, components, and utilities automatically in v4 */
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
   html {
@@ -9,6 +10,7 @@
   }
 
   body {
+    margin: 0;
     background-color: #0B1120;
     color: #F9FAFB;
     font-family: 'Inter', sans-serif;

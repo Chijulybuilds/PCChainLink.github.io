@@ -12,10 +12,10 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="flex space-x-4">
-          <a href={PERSONAL_INFO.githubUrl} target="_blank" rel="noreferrer" className="p-3 bg-card border border-borderDark rounded-lg text-textSecondary hover:text-textPrimary transition-colors">
+          <a href={PERSONAL_INFO.githubUrl} target="_blank" rel="noreferrer" aria-label="Visit GitHub profile" className="p-3 bg-card border border-borderDark rounded-lg text-textSecondary hover:text-textPrimary transition-colors">
             <Github size={20} />
           </a>
-          <a href="mailto:your.email@example.com" className="p-3 bg-card border border-borderDark rounded-lg text-textSecondary hover:text-textPrimary transition-colors">
+          <a href="mailto:princechimuanya18@gmail.com" aria-label="Send an email" className="p-3 bg-card border border-borderDark rounded-lg text-textSecondary hover:text-textPrimary transition-colors">
             <Mail size={20} />
           </a>
         </div>

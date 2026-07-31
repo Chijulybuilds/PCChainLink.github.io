@@ -4,7 +4,7 @@ import { ArrowUpRight, Github, ShieldCheck } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
-    <section className="pt-32 pb-20 px-6 max-w-6xl mx-auto">
+    <section id="about" className="pt-32 pb-20 px-6 max-w-6xl mx-auto scroll-mt-16">
       <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-borderDark border border-borderDark text-accentGreen text-xs font-mono mb-6">
         <ShieldCheck size={14} />
         <span>Open for Smart Contract Roles</span>
