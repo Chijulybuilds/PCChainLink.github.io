@@ -6,7 +6,7 @@ export const Navbar: React.FC = () => {
 
   return (
     <nav className="fixed top-0 w-full bg-[#0B1120]/90 backdrop-blur-md border-b border-borderDark z-50">
-      <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         <a href="#" className="flex items-center space-x-2 font-heading font-bold text-xl text-textPrimary tracking-tight">
           <Terminal className="text-accent" size={24} />
           <span>Chijuly.eth</span>
@@ -20,13 +20,13 @@ export const Navbar: React.FC = () => {
           <a href="#contact" className="px-4 py-2 bg-accent text-white rounded-lg hover:bg-blue-700 transition-colors">Contact</a>
         </div>
 
-        <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-textSecondary">
+        <button type="button" onClick={() => setIsOpen(!isOpen)} aria-label={isOpen ? 'Close navigation' : 'Open navigation'} aria-expanded={isOpen} className="md:hidden p-2 -mr-2 text-textSecondary">
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
 
       {isOpen && (
-        <div className="md:hidden bg-card border-b border-borderDark px-6 py-4 space-y-4 text-textSecondary flex flex-col">
+        <div className="md:hidden bg-card border-b border-borderDark px-4 sm:px-6 py-4 space-y-4 text-textSecondary flex flex-col">
           <a href="#about" onClick={() => setIsOpen(false)}>About</a>
           <a href="#projects" onClick={() => setIsOpen(false)}>Projects</a>
           <a href="#skills" onClick={() => setIsOpen(false)}>Skills</a>

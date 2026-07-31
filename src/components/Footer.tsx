@@ -4,7 +4,7 @@ import { Github, Mail } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
-    <footer id="contact" className="border-t border-borderDark py-12 px-6 max-w-6xl mx-auto">
+    <footer id="contact" className="max-w-6xl mx-auto border-t border-borderDark px-4 py-12 sm:px-6">
       <div className="flex flex-col sm:flex-row justify-between items-center gap-6">
         <div>
           <h3 className="font-heading text-xl font-bold text-textPrimary">Let's connect</h3>

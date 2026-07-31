@@ -4,7 +4,7 @@ import { ProjectCard } from './ProjectCard';
 
 export const Projects: React.FC = () => {
   return (
-    <section id="projects" className="py-20 px-6 max-w-6xl mx-auto">
+    <section id="projects" className="max-w-6xl mx-auto px-4 py-16 sm:px-6 sm:py-20">
       <div className="mb-12">
         <h2 className="font-heading text-3xl font-bold text-textPrimary mb-2">Featured Projects</h2>
         <p className="text-textSecondary">Production smart contracts, DeFi architectures, and protocols.</p>

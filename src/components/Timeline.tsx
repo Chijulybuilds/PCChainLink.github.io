@@ -3,7 +3,7 @@ import { TIMELINE } from '../data';
 
 export const Timeline: React.FC = () => {
   return (
-    <section id="journey" className="py-20 px-6 max-w-6xl mx-auto border-t border-borderDark">
+    <section id="journey" className="max-w-6xl mx-auto border-t border-borderDark px-4 py-16 sm:px-6 sm:py-20">
       <h2 className="font-heading text-3xl font-bold text-textPrimary mb-12">Engineering Journey</h2>
 
       <div className="space-y-8 relative before:absolute before:inset-0 before:left-3 before:w-0.5 before:bg-borderDark">

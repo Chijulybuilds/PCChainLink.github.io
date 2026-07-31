@@ -3,7 +3,7 @@ import { SKILLS } from '../data';
 
 export const Skills: React.FC = () => {
   return (
-    <section id="skills" className="py-20 px-6 max-w-6xl mx-auto border-t border-borderDark">
+    <section id="skills" className="max-w-6xl mx-auto border-t border-borderDark px-4 py-16 sm:px-6 sm:py-20">
       <h2 className="font-heading text-3xl font-bold text-textPrimary mb-12">Technical Skills</h2>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
