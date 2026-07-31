@@ -22,8 +22,9 @@ export const PERSONAL_INFO = {
   name: "Prince Chinedu",
   role: "Smart Contract Engineer",
   tagline: "I build secure decentralized protocols, tokenized financial systems, and production-ready smart contracts.",
+  avatarUrl: "/profile.jpg", // Added avatar path
   githubUrl: "https://github.com/Chijulybuilds",
-  linkedinUrl: "https://linkedin.com", // Add your link here
+  linkedinUrl: "https://linkedin.com",
   location: "Nigeria",
   stats: {
     experience: "2+ Years",
