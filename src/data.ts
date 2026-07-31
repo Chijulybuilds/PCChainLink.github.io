@@ -94,7 +94,7 @@ export const PROJECTS: Project[] = [
 
 export const SKILLS: SkillCategory[] = [
   { category: "Languages", skills: ["Solidity", "TypeScript", "JavaScript", "Python"] },
-  { category: "Frameworks & Tools", skills: ["Foundry", "Hardhat", "Node.js", "React", "Git", "Docker"] },
+  { category: "Frameworks & Tools", skills: ["Foundry", "Node.js", "React", "Git", "Docker"] },
   { category: "Blockchain & DeFi", skills: ["Ethereum", "Chainlink", "ERC20 / ERC721", "DeFi Architecture", "Smart Contract Security"] },
   { category: "Testing", skills: ["Forge Unit Testing", "Fuzz Testing", "Static Analysis (Slither)"] },
 ];
