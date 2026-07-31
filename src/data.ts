@@ -18,16 +18,37 @@ export interface TimelineItem {
   description: string;
 }
 
-export const PERSONAL_INFO = {
+export interface PersonalInfo {
+  name: string;
+  role: string;
+  tagline: string;
+  avatarUrl: string;
+  githubUrl: string;
+  linkedinUrl: string;
+  mediumUrl: string;
+  xUrl: string;
+  email: string;
+  location: string;
+  stats: {
+    experience: string;
+    projects: string;
+    focus: string;
+  };
+}
+
+export const PERSONAL_INFO: PersonalInfo = {
   name: "Prince Chinedu",
   role: "Smart Contract Engineer",
-  tagline: "I build secure decentralized protocols, tokenized financial systems, and production-ready smart contracts.",
+  tagline: "I think we should go FROGY with those Contracts. What do you THINK!",
   avatarUrl: "/PCChainLink.github.io/profile.png",
   githubUrl: "https://github.com/Chijulybuilds",
-  linkedinUrl: "https://linkedin.com",
+  linkedinUrl: "https://www.linkedin.com/in/prince-chinedu",
+  mediumUrl: "https://medium.com/@princechimuanya18",
+  xUrl: "https://x.com/PrinceChin41223",
+  email: "princechimuanya18@gmail.com",
   location: "Nigeria",
   stats: {
-    experience: "2+ Years",
+    experience: "1+ Years",
     projects: "5+ Built",
     focus: "Solidity & DeFi",
   },
@@ -51,7 +72,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Verifund Protocol",
     description: "Decentralized escrow and milestone-based payment infrastructure designed for trustless financial transactions.",
-    tags: ["Solidity", "Escrow", "TypeScript", "Ethers.js"],
+    tags: ["Solidity", "Escrow", "TypeScript", "Python"],
     github: "https://github.com/Chijulybuilds/Verifund",
     featured: true,
   },
@@ -80,18 +101,13 @@ export const SKILLS: SkillCategory[] = [
 
 export const TIMELINE: TimelineItem[] = [
   {
-    year: "2024",
-    title: "Foundations in Smart Contract Development",
-    description: "Began intensive Solidity engineering using Foundry, mastering OpenZeppelin security standards and testing strategies.",
-  },
-  {
     year: "2025",
-    title: "NFT Architecture & Chainlink Integrations",
-    description: "Engineered secure NFT systems and trustless automation tools using Chainlink VRF and keeper automation.",
+    title: "Foundations in Smart Contract Development, NFT Architecture & Chainlink Integrations",
+    description: "Engineered secure Smart Contracts, NFT systems and trustless automation tools using Chainlink VRF and keeper automation.",
   },
   {
     year: "2026",
     title: "DeFi Infrastructure & Real-World Assets",
-    description: "Designed Verifund-Lend protocols, AgriBridge tokenization systems, and cross-chain architecture while expanding full-stack tooling.",
+    description: "Designed Verifund-Lend protocols, AgriBridge tokenization systems with an amazing Team, and cross-chain architecture while expanding full-stack tooling.",
   },
 ];

@@ -10,7 +10,7 @@ export const Hero: React.FC = () => {
         <div className="w-full flex-1">
           <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-borderDark border border-borderDark text-accentGreen text-xs font-mono mb-6">
             <ShieldCheck size={14} />
-            <span>Open for Smart Contract Roles</span>
+            <span>Open for Smart Contract & DeFI Protocol Roles</span>
           </div>
 
           <h1 className="font-heading text-4xl font-bold tracking-tight text-textPrimary mb-4 sm:text-5xl lg:text-6xl">
