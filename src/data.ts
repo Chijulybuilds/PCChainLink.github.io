@@ -44,7 +44,7 @@ export const PERSONAL_INFO: PersonalInfo = {
   githubUrl: "https://github.com/Chijulybuilds",
   linkedinUrl: "https://www.linkedin.com/in/prince-chinedu",
   mediumUrl: "https://medium.com/@princechimuanya18",
-  xUrl: "https://x.com/PrinceChin41223",
+  xUrl: "https://x.com/Chijulybuild",
   email: "princechimuanya18@gmail.com",
   location: "Nigeria",
   stats: {
