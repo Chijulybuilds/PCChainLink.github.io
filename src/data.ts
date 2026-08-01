@@ -91,10 +91,10 @@ export const PROJECTS: Project[] = [
     featured: false,
   },
   {
-    title: "VeriBridge",
+    title: "CryVera",
     description: "An undergoing development full-stack project that uses Chainlink CCIP for ownership cross-chain and yield generation.",
     tags: ["Solidity", "TypeScript", "Wagmi", "Ethers.js", "ERC20", "OpenZeppelin", "CCIP", "Testing"],
-    github: "https://github.com/Chijulybuilds/VeriBridge",
+    github: "https://github.com/Chijulybuilds/CryVera",
     featured: false,
   },
 ];
