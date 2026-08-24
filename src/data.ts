@@ -92,11 +92,19 @@ export const PROJECTS: Project[] = [
   },
   {
     title: "CryVera",
-    description: "An undergoing development full-stack project that uses Chainlink CCIP for ownership cross-chain and yield generation.",
+    description: "An undergoing project development full-stack project that uses Chainlink CCIP.",
     tags: ["Solidity", "TypeScript", "Wagmi", "Ethers.js", "ERC20", "OpenZeppelin", "CCIP", "Testing"],
     github: "https://github.com/Chijulybuilds/CryVera",
     featured: false,
   },
+
+  {
+    title: "Yetah IQ",
+    description: "Mid Level Frontend Developer in a Team of Five, Building an company based workflow assessment.",
+    tags: ["TypeScript", "React", "Node.js", "Supabase"],
+    github: "https://github.com/Chijulybuilds/Yetah-IQ",
+    featured: false,
+  }
 ];
 
 export const SKILLS: SkillCategory[] = [
