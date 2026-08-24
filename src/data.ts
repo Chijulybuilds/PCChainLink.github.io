@@ -102,7 +102,7 @@ export const PROJECTS: Project[] = [
     title: "Yetah IQ",
     description: "Mid Level Frontend Developer in a Team of Five, Building an company based workflow assessment.",
     tags: ["TypeScript", "React", "Node.js", "Supabase"],
-    github: "https://github.com/Chijulybuilds/Yetah-IQ",
+    github: "https://github.com/bigembee/360-Performance-Review",
     featured: false,
   }
 ];
