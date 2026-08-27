@@ -38,7 +38,7 @@ export interface PersonalInfo {
 
 export const PERSONAL_INFO: PersonalInfo = {
   name: "Prince Chinedu",
-  role: "Smart Contract Engineer",
+  role: "Smart Contract Engineer | Mid-Level Web2 Systems",
   tagline: "I think we should go FROGY with those Contracts. What do you THINK!",
   avatarUrl: "/PCChainLink.github.io/profile.png",
   githubUrl: "https://github.com/Chijulybuilds",
@@ -55,6 +55,13 @@ export const PERSONAL_INFO: PersonalInfo = {
 };
 
 export const PROJECTS: Project[] = [
+  {
+    title: "Yetah IQ",
+    description: "Mid Level Frontend Developer in a Team of Five, Building an company based workflow assessment.",
+    tags: ["TypeScript", "Next JS", "TailwindCSS", "React", "Node.js", "Supabase"],
+    github: "https://www.yetahiq.com/",
+    featured: true,
+  },
   {
     title: "Verifund-Lend",
     description: "DeFi lending protocol built with modern architecture, automated vault management, and custom interest rate strategy logic.",
@@ -88,28 +95,20 @@ export const PROJECTS: Project[] = [
     description: "Custom NFT smart contract implementation featuring gas-optimized metadata management and access controls.",
     tags: ["Solidity", "ERC721", "OpenZeppelin", "Testing"],
     github: "https://github.com/Chijulybuilds/ERC721-CHIJULY",
-    featured: false,
+    featured: true,
   },
   {
     title: "CryVera",
     description: "An undergoing project development full-stack project that uses Chainlink CCIP.",
     tags: ["Solidity", "TypeScript", "Wagmi", "Ethers.js", "ERC20", "OpenZeppelin", "CCIP", "Testing"],
     github: "https://github.com/Chijulybuilds/CryVera",
-    featured: false,
-  },
-
-  {
-    title: "Yetah IQ",
-    description: "Mid Level Frontend Developer in a Team of Five, Building an company based workflow assessment.",
-    tags: ["TypeScript", "Next JS", "TailwindCSS", "React", "Node.js", "Supabase"],
-    github: "https://www.yetahiq.com/",
-    featured: false,
+    featured: true,
   }
 ];
 
 export const SKILLS: SkillCategory[] = [
   { category: "Languages", skills: ["Solidity", "TypeScript", "JavaScript", "Python"] },
-  { category: "Frameworks & Tools", skills: ["Foundry", "Node.js", "React", "Git", "Docker"] },
+  { category: "Frameworks & Tools", skills: ["Foundry", "Node.js", "React", "Git"] },
   { category: "Blockchain & DeFi", skills: ["Ethereum", "Chainlink", "ERC20 / ERC721", "DeFi Architecture", "Smart Contract Security"] },
   { category: "Testing", skills: ["Forge Unit Testing", "Fuzz Testing", "Static Analysis (Slither)"] },
 ];
