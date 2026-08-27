@@ -49,7 +49,7 @@ export const PERSONAL_INFO: PersonalInfo = {
   location: "Nigeria",
   stats: {
     experience: "1+ Years",
-    projects: "5+ Built",
+    projects: "6+ Built",
     focus: "Solidity & DeFi",
   },
 };
