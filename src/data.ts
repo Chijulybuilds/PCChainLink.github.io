@@ -101,8 +101,8 @@ export const PROJECTS: Project[] = [
   {
     title: "Yetah IQ",
     description: "Mid Level Frontend Developer in a Team of Five, Building an company based workflow assessment.",
-    tags: ["TypeScript", "React", "Node.js", "Supabase"],
-    github: "https://github.com/bigembee/360-Performance-Review",
+    tags: ["TypeScript", "Next JS", "TailwindCSS", "React", "Node.js", "Supabase"],
+    github: "https://www.yetahiq.com/",
     featured: false,
   }
 ];
