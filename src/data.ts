@@ -39,7 +39,7 @@ export interface PersonalInfo {
 export const PERSONAL_INFO: PersonalInfo = {
   name: "Prince Chinedu",
   role: "Smart Contract Engineer | Mid-Level Web2 Systems",
-  tagline: "I think we should go FROGY with those Contracts. What do you THINK!",
+  tagline: "I think we should go FROGY with those Systems. What do you THINK!",
   avatarUrl: "/PCChainLink.github.io/profile.png",
   githubUrl: "https://github.com/Chijulybuilds",
   linkedinUrl: "https://www.linkedin.com/in/prince-chinedu",
@@ -116,12 +116,12 @@ export const SKILLS: SkillCategory[] = [
 export const TIMELINE: TimelineItem[] = [
   {
     year: "2025",
-    title: "Foundations in Smart Contract Development, NFT Architecture & Chainlink Integrations",
-    description: "Engineered secure Smart Contracts, NFT systems and trustless automation tools using Chainlink VRF and keeper automation.",
+    title: "Foundations in Backend workflow systems, Smart Contract Development, NFT Architecture & Chainlink Integrations",
+    description: "Engineered secure Smart Contracts, Backend security, NFT workflow systems and trustless automation tools using Chainlink VRF and keeper automation.",
   },
   {
     year: "2026",
-    title: "DeFi Infrastructure & Real-World Assets",
-    description: "Designed Verifund-Lend protocols, AgriBridge tokenization systems with an amazing Team, and cross-chain architecture while expanding full-stack tooling.",
+    title: "Mid-Level Full Stack, DeFi Infrastructure & Real-World Assets",
+    description: "Designed Verifund-Lend protocols, AgriBridge tokenization systems(dApp) with an amazing Team, and cross-chain architecture while expanding full-stack tooling.",
   },
 ];
