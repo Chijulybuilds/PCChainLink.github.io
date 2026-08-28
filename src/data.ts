@@ -38,7 +38,7 @@ export interface PersonalInfo {
 
 export const PERSONAL_INFO: PersonalInfo = {
   name: "Prince Chinedu",
-  role: "Smart Contract Engineer | Mid-Level Web2 Systems",
+  role: "Smart Contract Engineer | Web FullStack Development",
   tagline: "I think we should go FROGY with those Systems. What do you THINK!",
   avatarUrl: "/PCChainLink.github.io/profile.png",
   githubUrl: "https://github.com/Chijulybuilds",
