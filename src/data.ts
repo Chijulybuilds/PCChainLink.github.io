@@ -49,8 +49,8 @@ export const PERSONAL_INFO: PersonalInfo = {
   location: "Nigeria",
   stats: {
     experience: "1+ Years",
-    projects: "6+ Built",
-    focus: "Solidity & DeFi",
+    projects: "7+ Built",
+    focus: "FullStack & DeFi",
   },
 };
 
@@ -60,6 +60,13 @@ export const PROJECTS: Project[] = [
     description: "Mid Level Frontend Developer in a Team of Five, Building an company based workflow assessment.",
     tags: ["TypeScript", "Next JS", "TailwindCSS", "React", "Node.js", "Supabase"],
     github: "https://www.yetahiq.com/",
+    featured: true,
+  },
+  {
+    title: "SaveWise",
+    description: "A FullStack WebApp called Savewise that turns income into intentional saving, smarter spending, and financial progress you can actually measure.",
+    tags: ["NodeJS", "API", "NextJS", "TypeScript", "React", "Motion"],
+    github: "https://savewise-client-bndb.vercel.app/",
     featured: true,
   },
   {
