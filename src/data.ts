@@ -64,9 +64,16 @@ export const PROJECTS: Project[] = [
   },
   {
     title: "SaveWise",
-    description: "A FullStack WebApp called Savewise that turns income into intentional saving, smarter spending, and financial progress you can actually measure.",
+    description: "A FullStack WebApp that turns income into intentional saving, smarter spending, and financial progress you can actually measure.",
     tags: ["NodeJS", "API", "NextJS", "TypeScript", "React", "Motion"],
     github: "https://savewise-client-bndb.vercel.app/",
+    featured: true,
+  },
+  {
+    title: "Docinta",
+    description: "A Portfolio created FullStack Application that acts as a Virtual Assistant connecting Doctors and Patients virtually.",
+    tags: ["NodeJS", "API", "NextJS", "TypeScript", "React", "Motion"],
+    github: "https://docinta-client.vercel.app/",
     featured: true,
   },
   {
