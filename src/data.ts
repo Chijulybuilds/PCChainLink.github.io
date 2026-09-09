@@ -114,7 +114,7 @@ export const PROJECTS: Project[] = [
   {
     title: "CryVera",
     description: "An undergoing project development full-stack project that uses Chainlink CCIP.",
-    tags: ["Solidity", "TypeScript", "Wagmi", "Ethers.js", "ERC20", "OpenZeppelin", "CCIP", "Testing"],
+    tags: ["Solidity", "TypeScript", "Rainbow-kit", "Wagmi", "Ethers.js", "ERC20", "OpenZeppelin", "CCIP", "Testing"],
     github: "https://github.com/Chijulybuilds/CryVera",
     featured: true,
   }
