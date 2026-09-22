@@ -38,7 +38,7 @@ export interface PersonalInfo {
 
 export const PERSONAL_INFO: PersonalInfo = {
   name: "Prince Chinedu",
-  role: "Smart Contract Engineer | Web FullStack Development",
+  role: "Smart Contract Engineer &  Auditor | FullStack Development",
   tagline: "I think we should go FROGY with those Systems. What do you THINK!",
   avatarUrl: "/PCChainLink.github.io/profile.png",
   githubUrl: "https://github.com/Chijulybuilds",
@@ -49,8 +49,8 @@ export const PERSONAL_INFO: PersonalInfo = {
   location: "Nigeria",
   stats: {
     experience: "1+ Years",
-    projects: "7+ Built",
-    focus: "FullStack & DeFi",
+    projects: "8+ Built",
+    focus: "FullStack , DeFI & Bug Checks",
   },
 };
 
@@ -116,6 +116,13 @@ export const PROJECTS: Project[] = [
     description: "An undergoing project development full-stack project that uses Chainlink CCIP.",
     tags: ["Solidity", "TypeScript", "Rainbow-kit", "Wagmi", "Ethers.js", "ERC20", "OpenZeppelin", "CCIP", "Testing"],
     github: "https://github.com/Chijulybuilds/CryVera",
+    featured: true,
+  },
+  {
+    title: "Smart Contract Audit Reports",
+    description: "Repo of my past Independent Security Researches",
+    tags: ["Solidity", "Foundry", "Vulnerability Check"],
+    github: "https://github.com/Chijulybuilds/audit-reports",
     featured: true,
   }
 ];
