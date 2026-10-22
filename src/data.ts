@@ -56,6 +56,13 @@ export const PERSONAL_INFO: PersonalInfo = {
 
 export const PROJECTS: Project[] = [
   {
+    title: "Smart Contract Audit Reports",
+    description: "Repo of my past Independent Security Researches",
+    tags: ["Solidity", "Foundry", "Slither", "Aderyn", "Halmos", "Certora", "Vulnerability Check"],
+    github: "https://github.com/Chijulybuilds/audit-reports",
+    featured: true,
+  },
+  {
     title: "Yetah IQ",
     description: "Mid Level Frontend Developer in a Team of Five, Building an company based workflow assessment.",
     tags: ["TypeScript", "Next JS", "TailwindCSS", "React", "Node.js", "Supabase"],
@@ -117,14 +124,8 @@ export const PROJECTS: Project[] = [
     tags: ["Solidity", "TypeScript", "Rainbow-kit", "Wagmi", "Ethers.js", "ERC20", "OpenZeppelin", "CCIP", "Testing"],
     github: "https://github.com/Chijulybuilds/CryVera",
     featured: true,
-  },
-  {
-    title: "Smart Contract Audit Reports",
-    description: "Repo of my past Independent Security Researches",
-    tags: ["Solidity", "Foundry", "Vulnerability Check"],
-    github: "https://github.com/Chijulybuilds/audit-reports",
-    featured: true,
   }
+  
 ];
 
 export const SKILLS: SkillCategory[] = [
