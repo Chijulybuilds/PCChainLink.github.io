@@ -2,7 +2,7 @@ export interface Project {
   title: string;
   description: string;
   tags: string[];
-  github: string;
+  github?: string;
   liveUrl?: string;
   featured: boolean;
 }
@@ -56,6 +56,20 @@ export const PERSONAL_INFO: PersonalInfo = {
 
 export const PROJECTS: Project[] = [
   {
+    title: "Delegate",
+    description: "A web platform for coordinating delegation and managing delegated work.",
+    tags: ["Web App", "Workflow", "Delegation"],
+    liveUrl: "https://delegate-seven-alpha.vercel.app/",
+    featured: true,
+  },
+  {
+    title: "Flag Up Jesus",
+    description: "A faith-centered website sharing the message and mission of Flag Up Jesus.",
+    tags: ["Website", "Faith", "Community"],
+    liveUrl: "https://www.flagupjesus.org/",
+    featured: true,
+  },
+  {
     title: "Smart Contract Audit Reports",
     description: "Repo of my past Independent Security Researches",
     tags: ["Solidity", "Foundry", "Slither", "Aderyn", "Halmos", "Certora", "Vulnerability Check"],
@@ -66,21 +80,21 @@ export const PROJECTS: Project[] = [
     title: "Yetah IQ",
     description: "Mid Level Frontend Developer in a Team of Five, Building an company based workflow assessment.",
     tags: ["TypeScript", "Next JS", "TailwindCSS", "React", "Node.js", "Supabase"],
-    github: "https://www.yetahiq.com/",
+    liveUrl: "https://www.yetahiq.com/",
     featured: true,
   },
   {
     title: "SaveWise",
     description: "A FullStack WebApp that turns income into intentional saving, smarter spending, and financial progress you can actually measure.",
     tags: ["NodeJS", "API", "NextJS", "TypeScript", "React", "Motion"],
-    github: "https://savewise-client-bndb.vercel.app/",
+    liveUrl: "https://savewise-client-bndb.vercel.app/",
     featured: true,
   },
   {
     title: "Docinta",
     description: "A Portfolio created FullStack Application that acts as a Virtual Assistant connecting Doctors and Patients virtually.",
     tags: ["NodeJS", "API", "NextJS", "TypeScript", "React", "Motion"],
-    github: "https://docinta-client.vercel.app/",
+    liveUrl: "https://docinta-client.vercel.app/",
     featured: true,
   },
   {

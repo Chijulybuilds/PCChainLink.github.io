@@ -9,11 +9,13 @@ export const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
         <div className="flex justify-between items-start mb-4">
           <FolderGit2 className="text-accent group-hover:scale-110 transition-transform" size={28} />
           <div className="flex space-x-3 text-textSecondary">
-            <a href={project.github} target="_blank" rel="noreferrer" className="hover:text-textPrimary">
-              <Github size={20} />
-            </a>
+            {project.github && (
+              <a href={project.github} target="_blank" rel="noreferrer" aria-label={`View ${project.title} on GitHub`} className="hover:text-textPrimary">
+                <Github size={20} />
+              </a>
+            )}
             {project.liveUrl && (
-              <a href={project.liveUrl} target="_blank" rel="noreferrer" className="hover:text-textPrimary">
+              <a href={project.liveUrl} target="_blank" rel="noreferrer" aria-label={`Visit ${project.title} website`} className="hover:text-textPrimary">
                 <ExternalLink size={20} />
               </a>
             )}
